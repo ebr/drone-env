@@ -1,0 +1,6 @@
+pipeline:
+  environment:
+    image: library/ubuntu:xenial
+    secrets: [foo,baz]
+    commands:
+      - env
